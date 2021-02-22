@@ -2,6 +2,22 @@
 
 [Create Account](Create-Account.html)
 
+[Shop Groceries](Shop-Groceries.html)
+
+[Purchase Groceries](Purchase-Groceries.html)
+
+[Reveiw a Product](Reveiw-a-Product.html)
+
+[Return Product](Return-Product.html)
+
+[Make a Complaint](Make-a-Complaint.html)
+
+[Request Help](Request-Help.html)
+
+[Check Age](Check-Age.html)
+
+[Edit Item Details](Edit-Item-Details.html)
+
 You can use the [editor on GitHub](https://github.com/Joshuarod890/grocery/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
