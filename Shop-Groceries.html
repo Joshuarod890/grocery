@@ -5,13 +5,15 @@
     </head>
     <body>
         <h1>Shop Groceries</h1>
-        <input type = "text" placeholder = "search">
+        <h2>Add Groceries</h2>
+        <input type = "text" placeholder = "search"><br>
         <table>
             <tr>
             <td><img src="Soup.jpg" style="width:200px"></td>
             <td style="text-align:left;vertical-align:top">
             Chicken Noodle Soup: $1<br>
-            Find comfort in it as a trusted pantry staple for weeknight dinner solutions.<br>
+            Amount in stock: 23<br>
+            Description: Find comfort in a trusted pantry staple for weeknight dinner solutions.<br><br>
             <input type="button" value="Add">
             </td>
             </tr>
@@ -19,7 +21,8 @@
             <td><img src="Breast.jpg" style="width:200px"></td>
             <td style="text-align:left;vertical-align:top">
             Chicken Breast: $2/lb<br>
-            Hatched, raised and harvested in the USA..<br>
+            Amount in stock: 13<br>
+            Hatched, raised and harvested in the USA.<br><br>
             <input type="button" value="Add">
             </td>
             </tr>
@@ -27,7 +30,8 @@
             <td><img src="Deli.jpeg" style="width:200px"></td>
             <td style="text-align:left;vertical-align:top">
             Chicken Deli Meat: $3<br>
-            Chicken Breast lunch meat with no artificial preservatives.<br>
+            Amount in stock: 19<br>
+            Chicken Breast lunch meat with no artificial preservatives.<br><br>
             <input type="button" value="Add">
             </td>
             </tr>
@@ -35,20 +39,83 @@
             <td><img src="Nuggets.jpg" style="width:200px"></td>
             <td style="text-align:left;vertical-align:top">
             Chicken Nuggets: $4<br>
-            Boneless, skinless chicken chunks perfect for snacks or appetizers.<br>
+            Amount in stock: 29<br>
+            Boneless, skinless chicken chunks perfect for snacks or appetizers.<br><br>
             <input type="button" value="Add">
             </td>
             </tr>
             </table>        
-        <h2>Add Groceries</h2>
             <h2>View Item Details</h2>
                 <h3>View Price</h3>
+
+            <input type = "text" placeholder = "search"><br>
+            <input type = "button" value = "Enter"><br>
+
                 <h3>View Amount in Stock</h3>
+
+            <input type = "text" placeholder = "search"><br>
+            <input type = "button" value = "Enter"><br>
+
                 <h3>View Reveiws</h3>
+
+            <input type = "text" placeholder = "search"><br>
+            <input type = "button" value = "Enter"><br>    
             <h2>Select Quantity of an Item</h2>
+            
+            <table>
+                <tr>
+                <td><img src="Soup.jpg" style="width:200px"></td>
+                <td style="text-align:left;vertical-align:top">
+                Chicken Noodle Soup: $1<br>
+                Find comfort in it as a trusted pantry staple for weeknight dinner solutions.<br><br>
+
+                <div>Select amount to add to cart</div>
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                </select>
+                <input type="button" value="Add">
+                </td>
+                </tr>
+            </table>
+            
             <h2>Search Items</h2>
-                <h3>Sort Items</h3>
+            
+            <input type = "text" placeholder = "search"><br>
+            <input type = "button" value = "Enter"><br>
+            
+            <h3>Sort Items</h3>
+
+                <input type = "radio" name = "Sort">
+                <label>Price - High to Low</label><br>
+                <input type = "radio" name = "Sort">
+                <label>Price - Low to High</label><br>
+                <input type = "radio" name = "Sort">
+                <label>Alphabetically - A to Z</label><br>
+                <input type = "radio" name = "Sort">
+                <label>Alphabetically - Z to A</label><br>
+                
+                <input type = "button" value = "Sort"><br>
+
+
             <h2>Remove Items from Cart</h2>
+            <table>
+                <tr>
+                <td><img src="Soup.jpg" style="width:200px"></td>
+                <td style="text-align:left;vertical-align:top">
+                Chicken Noodle Soup: $1<br>
+                Find comfort in it as a trusted pantry staple for weeknight dinner solutions.<br>
+                <input type="button" value="Remove Item">
+                </td>
+                </tr>
+            </table><br>    
         <a href="index.html">HOME</a>
     </body>
 </html>
